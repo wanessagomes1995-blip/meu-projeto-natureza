@@ -1,0 +1,15 @@
+
+/* styles.css - estilo básico responsivo */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color: #222; }
+.site-header { background: linear-gradient(90deg, #1e8f5a, #2fb07a); padding: 1rem; }
+.main-nav { display: flex; gap: 1rem; justify-content: center; }
+.main-nav a { color: white; text-decoration: none; font-weight: 600; }
+.site-main { padding: 2rem; max-width: 900px; margin: 0 auto; }
+.site-footer { text-align: center; padding: 1rem; background:#f2f2f2; margin-top: 2rem; }
+
+/* Responsividade simples */
+@media (max-width: 600px) {
+  .main-nav { flex-direction: column; gap: 0.5rem; }
+  .site-main { padding: 1rem; }
+}

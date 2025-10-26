@@ -1,4 +1,4 @@
-Projeto empacotado gerado pelo ChatGPT.
+Projeto empacotado.
 Estrutura:
 - index.html (raiz) -> redireciona para /home/
 - /home/index.html
